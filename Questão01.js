@@ -11,8 +11,6 @@ function escada(n) {
     };
 
     for (let index = 0; index < numberArray.length; index ++) {
-
-        
         let line = [];
 
         line.push(" ".repeat(numberArray[index]));
@@ -21,8 +19,6 @@ function escada(n) {
 
         console.log(line.join(""));
     }
-
-    
 }
 
 escada(6);
